@@ -15,7 +15,7 @@ app.use(cors())
 app.get("/", (req, res) => {
     res.send("Welcome to  the Server")
 })
-app.use("/register", signup)
+app.use("/signup", signup)
 app.use("/login", login)
 
 
